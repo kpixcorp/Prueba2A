@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang=es>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Prueba 2-A</title>
+<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+</head>
+<body>
+
+	<div class="row">
+		<div class="col-md-12 zero">
+			<img class="zero__logo" src="assets/img/logo.png" alt="Logo de Cuackter">
+				<p class="zero__icons">
+				<a href=""><i class="fas fa-home fas-header"></i>Home</a>
+				<a href=""><i class="fas fa-bell fas-header"></i>Notificaciones</a>
+				<a href=""><i class="fas fa-envelope-open-text fas-header"></i>Mensajes</a>
+				</p>
+		</div>
+	</div>
+
+
+	<div class="row">
+		<div class="col-md-3 Uno">
+
+	        <div class="user-photo">
+		        <form action="#" class="user-photo__create" autocomplete="off">
+		        <div class="user-photo__img">
+		          	<img class="user-photo__image" src="assets/img/usertest3.png" alt="Aquí va tu foto">
+		          	<div class="options">
+
+			          	<input type="file" name="file" id="file" class="inputfile" />
+			          	<label for="file">Sube una imagen</label>
+
+			          	<select name="author" id="author" class="create__select">
+            <option value="usertest3.png">O selecciona una foto</option>
+            <option value="patoicon.png">Pato</option>
+            <option value="gatoicon.png">Gato</option>
+            <option value="perroicon.png">Perro</option>
+            <option value="conejoicon.png">Conejo</option>
+          				</select>
+
+
+		          	</div>
+				</div>
+	  		
+					<div class="contenido">
+				      <label for="tweets" class="tweet">
+				        <input type="text" name="tweet" class="tweet__input" id="usser" required><span class="contenido__input-text">Tu nombre</span>
+				      </label>	
+
+				      <label for="tweets" class="tweet">
+				        <input type="text" name="tweet" class="tweet__input" id="cuacks" required><span class="contenido__input-text">¿En qué piensas?</span>
+				      </label>	
+				      <input type="submit" value="cuacktear" class="create__submit">
+					</div>
+				</form>
+			</div>
+
+		</div>
+
+		<div class="col-md-9 Dos">
+			<div class="cuacks test__cuack">
+				<div class="cuacks__avatar ">
+					<img class=cuacks__img src="assets/img/usertest3.png" alt="">
+
+				</div>
+
+				<div class="cuacks__borrar"><a href=""><i class="fas fa-times-circle borrar__icon"></i></a></div>
+
+				<div class="cuacks__content">
+					<p class="cuacks__name">Nombre de usuario</p>
+					<p class="cuacks__text">¡Escribe aquí tus ideas!</p>
+				</div>
+
+				<div class="cuacks__social">
+					<a href=""><i class="fas fa-comment cuacks__social-icons1"></i>Comentarios <span class="comments">0</span></a>
+					<a href=""><i class="fas fa-feather cuacks__social-icons1"></i>Recuacks <span class="feathers">0</span></a>
+					<a href=""><i class="fas fa-heart cuacks__social-icons2"></i>Likes <span class="counter">0</span></a>
+					<a href=""><i class="fas fa-share-alt-square cuacks__social-icons1"></i>Compartir</a>
+				</div>
+			</div>
+
+	</div>
+
+	<script src=assets/js/script.js></script>
+</body>
+</html>

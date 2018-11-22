@@ -1,0 +1,233 @@
+/* -- GENERAL -- */
+
+body {
+	margin: 0;
+}
+.zero {
+	height: 159px;
+	background-image: url(../img/pato2.png);
+	background-size: cover;
+	background-position: center;
+	background-position: 0 28%;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+.row {
+	width: 100vw;
+	box-sizing: border-box;
+}
+
+.Uno {
+	height: 300px;
+	background-color: #f5f5f5;
+	background-image: url(../img/diamant.png);
+	background-repeat: repeat;	
+	border: 5px solid #d3caca;
+	padding: 10px 20px;
+	height: 100vh;
+	box-sizing: border-box;
+}
+
+.Dos {
+	height: 100vh;
+	background-color: #d3caca;
+	padding: 15px;
+	height: 100vh;
+	overflow: auto;
+	box-sizing: border-box;
+}
+
+/* -- FIN GENERAL -- */
+/* -- HEADER ROW -- */
+
+.zero__logo {
+	height: 85px;
+	margin: 10px 25px;
+}
+
+.zero__icons {
+	text-align: right;
+	width: 100%;
+	margin: 0px;
+	background-color: #a07d89;
+	padding: 8px 20px;
+	border: 2px white dashed;
+}
+
+.zero__icons a{
+	color: white;
+	margin: 0 2px;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+
+.fas-header{
+	color: #fff;
+	font-size: 2em;
+	margin: 3px 10px;
+}
+
+
+/* -- FIN HEADER ROW -- */
+/* -- USER ROW -- */
+
+.user-photo {
+	text-align: center;
+}
+
+.user-photo__image{
+	height:150px;
+	border-radius: 200px;
+	border: 3px #a07d89 solid;
+	margin: 10px 15px;
+}
+
+.tweet input{
+	width: 90%;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 0.9em;
+	overflow: auto;
+	font-weight: normal;
+	display: block;
+	margin: auto;
+	border: 2px #a07d89 solid;
+	border-radius: 10px;
+}
+
+label.tweet{
+	display: block;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label {
+    color: white;
+    background-color: #a07d89;
+    display: inline-block;
+    padding: 10px 5px;
+    border-radius: 4px;
+    margin: 10px 5px;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: white;
+    color: #a07d89;
+}
+
+.contenido__submit {
+	background-color: #a07d89;
+	color: white;
+	border-radius: 5px;
+	font-size: 1.25em;
+	margin: 15px 20px;
+	padding: 15px 0;
+	width: 80%;
+	border-style: none;
+	font-weight: bolder;
+}
+
+.contenido__input-text {
+	color: #a07d89;
+}
+
+
+/* -- FIN USER ROW -- */
+/* -- TWEETS ROW -- */
+
+.cuacks {
+	position: relative;
+	background-color: white;
+	border-radius: 10px;
+	padding: 15px;
+	min-height: 120px;
+	border: 2px solid #a07d89;
+	margin: 5px 0 15px;
+}
+
+.cuacks__avatar {
+	left: 20px;
+	position: absolute;
+	width: 65px;
+}
+
+.cuacks__img {
+	width: 100%;
+	border-radius: 50px;
+	position: absolute;
+	left: 5px;
+	top: 12px;
+}
+
+.cuacks__content {
+	margin-left: 100px;
+	margin-top: 5px;
+	color: #a07d89;
+	font-size: 1.2em;
+}
+
+.cuacks__text {
+	margin-bottom: 35px;
+	max-width: 100%;
+}
+
+.cuacks__name{
+	font-size: 0.8em;
+	font-weight: bolder;
+	margin-bottom: 1px;
+	color: #cc3d6e;
+}
+
+.cuacks__social {
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+	color: #a07d89;
+}
+
+.cuacks__social i {
+	color: #a07d89;
+	font-size: 1.3em;
+	margin: 0 12px;
+}
+
+.cuacks__social a {
+	color: #a07d89;
+	text-decoration: none;
+	font-size: 0.9em;
+}
+
+.cuacks__social span{
+	color: #cc3d6e;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+.cuack-invisible {
+	display: none;
+}
+
+.cuacks__social .icon-active {
+	color: #cc3d6e;
+}
+
+.cuacks__borrar {
+	position: absolute;
+	top:5px;
+	right: 10px;
+	font-size: 1.3em;
+}
+.cuacks__borrar i {
+	color: #cc3d6e;
+}
